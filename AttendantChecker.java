@@ -14,7 +14,7 @@ public class AttendantChecker {
 
 		for (;;) {
 			try {
-				TimeUnit.SECONDS.sleep(1);
+				TimeUnit.SECONDS.sleep(15);
 				update();
 			} catch (InterruptedException e) {
 				System.out.println("System wait error");
